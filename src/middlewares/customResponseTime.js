@@ -2,7 +2,7 @@ const config = require('../nconf');
 
 const timeToSleep = (value) => {
   if (value &&
-    value <= 30000 &&
+    value <= 300000 &&
     value >= 0) {
       return value
   }
